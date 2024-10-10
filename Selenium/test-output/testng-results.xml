@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
+  <reporter-output>
+    <line>
+      <![CDATA[login]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-09-27T23:14:20 IST" name="Default suite" finished-at="2024-09-27T23:14:20 IST" duration-ms="134">
+    <groups>
+    </groups>
+    <test started-at="2024-09-27T23:14:20 IST" name="Default test" finished-at="2024-09-27T23:14:20 IST" duration-ms="134">
+      <class name="com.actitime.testscript.CostomerModule">
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:com.actitime.testscript.CostomerModule@399f45b1]" started-at="2024-09-27T23:14:20 IST" name="OpenBrowser" finished-at="2024-09-27T23:14:20 IST" duration-ms="19" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "com.actitime.generic.BaseClass.d" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "com.actitime.generic.BaseClass.d" is null
+at com.actitime.generic.BaseClass.OpenBrowser(BaseClass.java:33)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.actitime.testscript.CostomerModule@399f45b1]" started-at="2024-09-27T23:14:20 IST" name="openBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1727459060813" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.actitime.testscript.CostomerModule@399f45b1]" started-at="2024-09-27T23:14:20 IST" name="login" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1727459060864" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createCustomer()[pri:0, instance:com.actitime.testscript.CostomerModule@399f45b1]" started-at="2024-09-27T23:14:20 IST" name="createCustomer" finished-at="2024-09-27T23:14:20 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "com.actitime.generic.BaseClass.d" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "com.actitime.generic.BaseClass.d" is null
+at com.actitime.generic.BaseClass.OpenBrowser(BaseClass.java:33)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomer -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.actitime.testscript.CostomerModule@399f45b1]" started-at="2024-09-27T23:14:20 IST" name="logout" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1727459060877" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.actitime.testscript.CostomerModule@399f45b1]" started-at="2024-09-27T23:14:20 IST" name="CloseBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1727459060888" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.actitime.testscript.CostomerModule@399f45b1]" started-at="2024-09-27T23:14:20 IST" name="closeBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1727459060890" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.actitime.testscript.CostomerModule -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
